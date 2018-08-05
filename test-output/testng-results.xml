@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="3476" started-at="2018-08-05T18:43:39Z" finished-at="2018-08-05T18:43:42Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="3476" started-at="2018-08-05T18:43:39Z" finished-at="2018-08-05T18:43:42Z">
+      <class name="RestProject.RestProject.ByZipCode">
+        <test-method status="PASS" signature="Happy_Path_For_ZipCode()[pri:0, instance:RestProject.RestProject.ByZipCode@68be2bc2]" name="Happy_Path_For_ZipCode" duration-ms="2961" started-at="2018-08-05T18:43:39Z" finished-at="2018-08-05T18:43:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Happy_Path_For_ZipCode -->
+        <test-method status="PASS" signature="Sad_Path_For_ZipCode_BadRequest()[pri:0, instance:RestProject.RestProject.ByZipCode@68be2bc2]" name="Sad_Path_For_ZipCode_BadRequest" duration-ms="156" started-at="2018-08-05T18:43:42Z" finished-at="2018-08-05T18:43:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Sad_Path_For_ZipCode_BadRequest -->
+        <test-method status="PASS" signature="Sad_Path_For_ZipCode_NotFound()[pri:0, instance:RestProject.RestProject.ByZipCode@68be2bc2]" name="Sad_Path_For_ZipCode_NotFound" duration-ms="156" started-at="2018-08-05T18:43:42Z" finished-at="2018-08-05T18:43:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Sad_Path_For_ZipCode_NotFound -->
+        <test-method status="PASS" signature="Sad_Path_For_ZipCode_UnAuthorized()[pri:0, instance:RestProject.RestProject.ByZipCode@68be2bc2]" name="Sad_Path_For_ZipCode_UnAuthorized" duration-ms="156" started-at="2018-08-05T18:43:42Z" finished-at="2018-08-05T18:43:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Sad_Path_For_ZipCode_UnAuthorized -->
+      </class> <!-- RestProject.RestProject.ByZipCode -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
